@@ -2,7 +2,8 @@
   <div class="view-container">
     <!-- <ContadorView /> -->
     <!--<DirectivasView /> -->
-    <PreguntaView />
+    <!-- <PreguntaView />-->
+    <PokemonView />
   </div>
 </template>
 
@@ -10,25 +11,20 @@
 import ContadorView from "../src/views/ContadorView.vue";
 import DirectivasView from "../src/views/DirectivasView.vue";
 import PreguntaView from "./views/PreguntaView.vue";
+import PokemonView from "./views/PokemonView.vue";
 
 export default {
   components: {
     ContadorView,
     DirectivasView,
     PreguntaView,
+    PokemonView,
   },
 };
 </script>
 
 <style scoped>
-.view-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h2 {
-  font-size: 50px;
-}
+
 
 </style>
 
