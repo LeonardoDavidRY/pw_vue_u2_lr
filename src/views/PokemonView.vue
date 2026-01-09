@@ -1,6 +1,6 @@
 <template>
   <div class="centrar-container">
-    <PokemonImagen :pokemonId="pokemonGanador" />
+    <PokemonImagen v-if="pokemonGanador" :pokemonId="pokemonGanador" />
     <PokemonOpciones
       v-on:seleccionado="evaluarGanador($event)"
       :listaPokemons="pokemonArr"
